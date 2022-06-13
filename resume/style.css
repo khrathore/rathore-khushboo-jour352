@@ -1,6 +1,22 @@
-style.css
+
+BODY {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+    font-size: 1em;
+    color: #444;
+    font-weight: 400;
+}
 
 h1 {
-    font-size: 36px;
+    font-size: 3em;
     color: #33485e;
+    text-transform: UPPERCASE;
+    text-align: center;
     }
+
+h2 {
+    font-size: 1em;
+    text-transform: UPPERCASE;
+    background-color: #33485e;
+    color: white;
+    font-weight: 400;
+}
