@@ -16,16 +16,20 @@ BODY {
     text-align: center;
     border-bottom: 1px solid #33485e;
     width: 60%;
-    max-width: 300px;
+    min-width: 300px;
     margin: 0 auto;
 }
 
 /* Section head styling */
-h2 {
+#sectionheader {
     font-size: 1em;
     text-transform: UPPERCASE;
     background-color: #33485e;
     color: white;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    width: 70%;
+    min-width: 300px;
 }
 
 /* Job location styling */
