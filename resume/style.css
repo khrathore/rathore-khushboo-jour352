@@ -26,27 +26,30 @@ BODY {
     text-transform: UPPERCASE;
     background-color: #33485e;
     color: white;
+    margin: 0px;
     margin-bottom: 10px;
     margin-top: 20px;
     width: 70%;
     min-width: 300px;
 }
 
-/* Job location styling */
-h3 {
+/* Job title styling */
+#jobtitle {
     font-size: 1em;
     font-weight: 600;
 }
 
-/* Job title styling */
-h4 {
-    font-size: 1.5em;
+/* Job location styling */
+#organization {
+    font-size: 1.25em;
 }
 
 /* Job time styling */
-h5 {
+#date {
     font-size: 1em;
     font-style: italic;
+    margin-top: 2px;
+
 }
 
 /* List styling */
