@@ -9,11 +9,15 @@ BODY {
 }
 
 /* Name styling */
-h1 {
+#name {
     font-size: 3em;
     color: #33485e;
     text-transform: UPPERCASE;
     text-align: center;
+    border-bottom: 1px solid #33485e;
+    width: 60%;
+    max-width: 300px;
+    margin: 0 auto;
 }
 
 /* Section head styling */
