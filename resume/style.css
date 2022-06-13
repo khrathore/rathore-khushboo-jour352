@@ -1,4 +1,6 @@
+/* Style for my resume */
 
+/* default setting*/
 BODY {
     font-family: 'Open Sans', 'Arial', sans-serif;
     font-size: 1em;
@@ -6,17 +8,40 @@ BODY {
     font-weight: 400;
 }
 
+/* Name styling */
 h1 {
     font-size: 3em;
     color: #33485e;
     text-transform: UPPERCASE;
     text-align: center;
-    }
+}
 
+/* Section head styling */
 h2 {
     font-size: 1em;
     text-transform: UPPERCASE;
     background-color: #33485e;
     color: white;
-    font-weight: 400;
+}
+
+/* Job location styling */
+h3 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+/* Job title styling */
+h4 {
+    font-size: 1.5em;
+}
+
+/* Job time styling */
+h5 {
+    font-size: 1em;
+    font-style: italic;
+}
+
+/* List styling */
+li {
+    font-size: 1em;
 }
