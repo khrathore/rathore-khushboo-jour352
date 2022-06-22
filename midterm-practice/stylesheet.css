@@ -10,6 +10,9 @@
     width: 900px;
 }
 
+h1 {
+    font-family: Helvetica, sans-serif;
+}
 
 #byline {
     font-family: Helvetica, sans-serif;
