@@ -1,0 +1,52 @@
+
+#container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    font-family: 'DM Serif Display', 'Garamond' serif;
+    max-width: 1920px;
+    font-size: 4em;
+    text-align: center;
+    background-color: #7e366d;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+figcaption {
+    font-family: 'Helvetica','sans-serif';
+    font-size: 11px;
+    color: rgb(172, 172, 172);
+}
+
+img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+p {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-size: 12px;
+}
+
+h2 {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'DM Serif Display', 'Garamond' serif;
+    font-size: 25px;
+    color: #7e366d;
+}
+
+#vert {
+    content: 500px;
+
+}
+
+
