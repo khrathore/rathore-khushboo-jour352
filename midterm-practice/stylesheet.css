@@ -1,21 +1,75 @@
 #masthead {
     max-height: 400px;
     width: 100%;
-    margin: 0;
     align-items: center;
+    margin-left: 0;
 }
 
 #content {
     margin: 0 auto;
     width: 900px;
+    padding: 20px;
 }
 
 h1 {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Helvetica', 'sans-serif';
+    font-size: 4em;
+    font-weight: 700;
+    padding-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    width: 100%;
+    color: #cc513f;
+   
+}
+
+figure {
+    margin: 5px;
+}
+
+h2 {
+    font-family: 'Georgia', 'serif';
+    font-size: 1em;
+    margin-bottom: 0;
+    margin-left: 0;
 }
 
 #byline {
-    font-family: Helvetica, sans-serif;
+    font-family: 'Helvetica', 'sans-serif';
     font-size: 14px;
-    font-style: italic;
+    font-style: italic; 
+    margin: 0;
+    padding
+}
+
+.inserts {
+    width: 100%;
+    margin-top: 10px;
+}
+
+p {
+    font-family: 'Georgia', 'serif';
+    font-size: 16px;
+    margin: 5px;
+    line-height-step: 5px;
+}
+
+figcaption {
+    font-family: 'Georgia', 'serif';
+    font-size: 12px;
+}
+
+blockquote {
+    font-size: 3em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50%;
+    background-color: #cc513f;
+    color: white;
 }
