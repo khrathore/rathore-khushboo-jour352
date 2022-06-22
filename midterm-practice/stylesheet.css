@@ -1,0 +1,18 @@
+#masthead {
+    max-height: 400px;
+    width: 100%;
+    margin: 0;
+    align-items: center;
+}
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+
+#byline {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+}
