@@ -51,4 +51,9 @@ h3 {
 
 }
 
-
+ul {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 5px;
+    font-size: 14px;
+}
