@@ -68,9 +68,11 @@ blockquote {
     padding-right: 20px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: 20px;
     width: 50%;
-    
+    border-top: 5px solid;
+    border-color: #7e366d;
+    border-bottom: 5px solid;
     color: #7e366d;
 }
