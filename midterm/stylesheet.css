@@ -1,10 +1,11 @@
-
+/*Default settings for the page*/
 #container {
     width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
 
+/*Headline settings*/
 h1 {
     font-family: 'DM Serif Display', 'Garamond' serif;
     max-width: 1920px;
@@ -23,7 +24,7 @@ figcaption {
     font-size: 11px;
     color: rgb(172, 172, 172);
 }
-
+/*Image setup in site*/
 img {
     width: 100%;
     margin-top: 10px;
@@ -56,4 +57,20 @@ ul {
     margin: 0 auto;
     margin-top: 5px;
     font-size: 14px;
+}
+
+blockquote {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    width: 50%;
+    
+    color: #7e366d;
 }
