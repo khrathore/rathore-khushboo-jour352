@@ -25,6 +25,7 @@ BODY {
     width: 60%;
     min-width: 300px;
     margin: 0 auto;
+    padding-top: 50px;
 }
 
 /* formatting for my title*/
@@ -129,5 +130,13 @@ li {
     margin-bottom: 30px;
 }
 
+.container-fluid {
+    text-align: justify;
+    background-color: #F8B800;
+    color: white;
+    font-size: larger;
+}
 
-
+.navbar-dark {
+    background-color: #F8B800;
+}
