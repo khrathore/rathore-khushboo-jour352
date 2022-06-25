@@ -140,3 +140,7 @@ li {
 .navbar-dark {
     background-color: #F8B800;
 }
+
+.header {
+    padding-top: 50px;
+}
