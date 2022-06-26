@@ -218,7 +218,7 @@ a {
     font-size: 14px;
     text-align: left;
     margin-top: 5px;
-    margin-left: 5px;
+    margin-left: 7px;
 }
 
 figcaption {
@@ -227,6 +227,7 @@ figcaption {
     color:rgb(158, 158, 158);
     margin-bottom: -15px;
     text-align: left;
+    margin-left: 7px;
 }
 
 .headline {
@@ -236,6 +237,3 @@ figcaption {
     margin-left: 5px;
 }
 
-#stories {
-    margin-left: 50px;
-}
