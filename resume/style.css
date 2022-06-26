@@ -61,6 +61,7 @@ BODY {
 a {
     text-decoration: none;
     border: none;
+    background-color: none;
 }
 #resume {
     margin-left: 200px;
@@ -236,4 +237,5 @@ figcaption {
     text-align: left;
     margin-left: 5px;
 }
+
 
