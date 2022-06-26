@@ -10,49 +10,82 @@ BODY {
 
 #container {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1920px;
     margin: 0 auto;
     padding-bottom: 50px;
 }
 
+.container-fluid {
+    background-color: #F8B800;
+    color: white;
+    font-size: larger;
+}
+
+.navbar-dark {
+    background-color: #F8B800;
+}
+
+.landing {
+    background-image: url(assignment-2.png);
+    background-size: 100% auto;
+    height: 360px;
+}
+
 /* Name styling */
 .name {
-    font-size: 3em;
-    color: #33485e;
+    border-bottom: 5px solid white;
+    font-size: 5em;
+    color: white;
     text-transform: UPPERCASE;
-    text-align: center;
-    border-bottom: 1px solid #33485e;
-    width: 60%;
-    min-width: 300px;
+    text-align: left;
+    width: 70%;
+    min-width: 700px;
     margin: 0 auto;
-    padding-top: 50px;
+    margin-top: 75px;
+    text-align: center;
 }
 
 /* formatting for my title*/
 #title {
-    font-weight: 600;
     text-transform: UPPERCASE;
-    font-size: 1.5em;
-    color:#33485e;
+    font-size: 3em;
+    color: white;
     text-align: center;
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-bottom: 20px;
 }
 
-/*menu list styling*/
-.menu {
-    margin: 0px;
-    padding: 0px;
+.customicon {
+    color: #F8B800;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#gridcon {
     text-align: center;
 }
 
-#menu {
-    margin: 2px; /* add spacing between items*/
-    display: inline;
-    list-style-type: none;
-    text-align: center;
+a {
+    text-decoration: none; 
+    border: none;
+}
+
+.frame {
+    width: 300px;
+    height: 250px;
+    border: 3px solid #F8B800;
+    background: #eee;
+    margin: auto;
+    padding: 15px 10px;
+  }
+
+#headshot {
+    border: 10px solid #F8B800;
+    align-items: left;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
 }
 
 /* Section head styling */
@@ -128,19 +161,4 @@ li {
     min-width: 300px;
     margin: 0 auto;
     margin-bottom: 30px;
-}
-
-.container-fluid {
-    text-align: justify;
-    background-color: #F8B800;
-    color: white;
-    font-size: larger;
-}
-
-.navbar-dark {
-    background-color: #F8B800;
-}
-
-.header {
-    padding-top: 50px;
 }
