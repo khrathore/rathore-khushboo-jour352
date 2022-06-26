@@ -53,16 +53,16 @@
                                 My Work
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item nav-link active" aria-current="page" href="#writingclips" target="_new">
+                                <li><a class="dropdown-item nav-link active" aria-current="page" href="#writingclips">
                                         Writing Clips </a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item nav-link active" aria-current="page" href="photoportfolio.html" target="_new"> Photo Portfolio </a></li>
+                                <li><a class="dropdown-item" href="#"> Photo Portfolio </a></li>
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item nav-link active" aria-current="page" href="https://github.com/khrathore" target="_new" > Code Repository </a></li>
+                                <li><a class="dropdown-item" href="#"> Code Repository </a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -88,10 +88,10 @@
                     <div id="gridcon">
                         <div class="row">
                             <div class="col">
-                                <a href="https://twitter.com/kboorath" target="_new"> <i class="bi-twitter customicon"></i> </a>
-                                <a href="https://www.linkedin.com/in/khushboo-rathore-73066b146/" target="_new"> <i
+                                <a href="https://twitter.com/kboorath"> <i class="bi-twitter customicon"></i> </a>
+                                <a href="https://www.linkedin.com/in/khushboo-rathore-73066b146/"> <i
                                         class="bi-linkedin  customicon"></i> </a>
-                                <a href="https://github.com/khrathore" target="_new"> <i class="bi-github  customicon"></i> </a>
+                                <a href="https://github.com/khrathore"> <i class="bi-github  customicon"></i> </a>
                             </div>
                         </div>
                     </div>
@@ -103,100 +103,68 @@
                     <div class="col-md-4">
                         <div class="px-4 py-5 my-5 text-center">
                             <figure>
-                                <img class="d-block mx-auto mb-4" src="AnnaEyler.jpg"
-                                    alt="A photo of swim coach Anna Eyler" width="400px">
+                                <img class="d-block mx-auto mb-4" src="annotated-Grit.jpg.pdf" alt="A photo of swim coach Anna Eyler" width="400px">
                                 <figcaption> For the Frederick News Post / Photo by Bill Green </figcaption>
                             </figure>
 
                             <div class="headline"> "Special Olympics swim coach likes seeing smiles" </div>
                             <div>
-                                <p class="storytext"> On Sunday evenings, Anna Eyler is at the pool, but her purpose
-                                    there is beyond just swimming.
-                                    On those evenings in Frederick County, she works with people of all ages with
-                                    intellectual disabilities, training
-                                    them to compete in Special Olympics. Eyler, born and raised in Woodsboro, first
-                                    joined the organization in 2013...</p>
-                                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                    <a href="https://www.fredericknewspost.com/sports/swimming/special-olympics-swim-coach-likes-seeing-smiles/article_9fe4233c-9a7f-5140-aa3a-9c48bf5bebe8.html"
-                                        target="_new">
-                                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3"
-                                            id="footer">Continue Reading</button>
-                                    </a>
-                                </div>
+                              <p class="storytext"> On Sunday evenings, Anna Eyler is at the pool, but her purpose there is beyond just swimming. 
+                                On those evenings in Frederick County, she works with people of all ages with intellectual disabilities, training 
+                                them to compete in Special Olympics. Eyler, born and raised in Woodsboro, first joined the organization in 2013...</p>
+                              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                <a href="https://www.fredericknewspost.com/sports/swimming/special-olympics-swim-coach-likes-seeing-smiles/article_9fe4233c-9a7f-5140-aa3a-9c48bf5bebe8.html" target="_new">
+                                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3" id="footer">Continue Reading</button>
+                                </a>
+                              </div>
                             </div>
-                        </div>
+                          </div>
                     </div>
                     <div class="col-md-4">
                         <div class="px-4 py-5 my-5 text-center">
                             <figure>
-                                <img class="d-block mx-auto mb-4" src="bocce.jpg"
-                                    alt="A photo of many people at a bocce court" width="400px">
+                                <img class="d-block mx-auto mb-4" src="bocce.jpg" alt="A photo of many people at a bocce court" width="400px">
                                 <figcaption> For the Frederick News Post / Photo by Bill Green </figcaption>
                             </figure>
 
-                            <div class="headline"> "Bench dedication at new bocce courts brings family, friends
-                                together" </div>
+                            <div class="headline"> "Bench dedication at new bocce courts brings family, friends together" </div>
                             <div>
-                                <p class="storytext"> Some friends and family gathered in Baker Park on Tuesday to
-                                    celebrate someone they lost a
-                                    year ago and play a sport she enjoyed — bocce. The group dedicated a bench and tree
-                                    to Betsey Gibson, who died
-                                    on June 22, 2021, a day after her 76th birthday. The bench and tree were placed near
-                                    the newly constructed... </p>
-
-                                </p>
-                                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                    <a href="https://www.fredericknewspost.com/sports/recreational/bench-dedication-at-new-bocce-courts-brings-family-friends-together/article_1e2399eb-38cd-5718-bb12-409ddee2a5b1.html"
-                                        target="_new">
-                                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3"
-                                            id="footer">Continue Reading</button>
-                                    </a>
-                                </div>
+                              <p class="storytext"> Some friends and family gathered in Baker Park on Tuesday to celebrate someone they lost a 
+                                year ago and play a sport she enjoyed — bocce. The group dedicated a bench and tree to Betsey Gibson, who died 
+                                on June 22, 2021, a day after her 76th birthday. The bench and tree were placed near the newly constructed... </p>
+                                
+                                 </p>
+                              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                <a href="https://www.fredericknewspost.com/sports/recreational/bench-dedication-at-new-bocce-courts-brings-family-friends-together/article_1e2399eb-38cd-5718-bb12-409ddee2a5b1.html" target="_new">
+                                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3" id="footer">Continue Reading</button>
+                                </a>
+                              </div>
                             </div>
-                        </div>
+                          </div>
                     </div>
                     <div class="col-md-4">
                         <div class="px-4 py-5 my-5 text-center">
                             <figure>
-                                <img class="d-block mx-auto mb-4" src="agagent.jpg"
-                                    alt="A photo of Mark Townsend beside a cow" width="400px">
+                                <img class="d-block mx-auto mb-4" src="agagent.jpg" alt="A photo of Mark Townsend beside a cow" width="400px">
                                 <figcaption> For the Frederick News Post / Photo by Bill Green </figcaption>
                             </figure>
 
-                            <div class="headline"> "Farming an 'incurable addiction' for new agricultural extension
-                                agent" </div>
+                            <div class="headline"> "Farming an 'incurable addiction' for new agricultural extension agent" </div>
                             <div>
-                                <p class="storytext"> Mark Townsend, the newest agricultural agent at Frederick
-                                    County’s... </p>
+                                <p class="storytext"> Mark Townsend, the newest agricultural agent at Frederick County’s... </p>
 
-
-                                <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-                                    <a href="https://www.fredericknewspost.com/sports/recreational/bench-dedication-at-new-bocce-courts-brings-family-friends-together/article_1e2399eb-38cd-5718-bb12-409ddee2a5b1.html"
-                                        target="_new">
-                                        <button type="button" class="btn btn-primary btn-lg px-4 gap-3"
-                                            id="footer">Continue Reading</button>
-                                    </a>
-                                </div>
+                               
+                              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                                <a href="https://www.fredericknewspost.com/sports/recreational/bench-dedication-at-new-bocce-courts-brings-family-friends-together/article_1e2399eb-38cd-5718-bb12-409ddee2a5b1.html" target="_new">
+                                    <button type="button" class="btn btn-primary btn-lg px-4 gap-3" id="footer">Continue Reading</button>
+                                </a>
+                              </div>
                             </div>
-                        </div>
+                          </div>
                     </div>
-
+                    
                 </div>
             </div>
-            <div id="gridicon">
-                <div class="row">
-                  <div class="col">
-                    <a href="https://twitter.com/kboorath" target="_new"> <i class="bi-twitter customiconbot"></i> </a>
-                    <a href="tel:3018180731" target="_new"> <i class="bi-telephone-fill customiconbot"></i> </a>
-                    <a href="https://www.linkedin.com/in/khushboo-rathore-73066b146/" target="_new"> <i
-                        class="bi-linkedin  customiconbot"></i> </a>
-                        <a href="https://www.instagram.com/kboorath/?hl=en" target="_new"> <i
-                          class="bi-instagram  customiconbot"></i> </a>
-                    <a href="https://github.com/khrathore" target="_new"> <i class="bi-github  customiconbot"></i> </a>
-                    <a href="tel:3018180731" target="_new"> <i class="bi-chat-left-dots-fill customiconbot"></i> </a>
-                  </div>
-                </div>
-              </div>
         </div>
         <footer class="bg-dark text-center text-white">
             <!-- Copyright -->
@@ -207,5 +175,4 @@
         </footer>
     </div>
 </body>
-
 </html>

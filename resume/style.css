@@ -224,6 +224,7 @@ a {
 
 .iconic {
     font-size: 6em;
+    color: black;
 }
 
 #gridicon {
@@ -244,3 +245,28 @@ a {
     font-size: 1em;
 }
 
+.storytext {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+figcaption {
+    margin-top: -25px;
+    font-size: 10px;
+    color:rgb(158, 158, 158);
+    margin-bottom: -15px;
+    text-align: left;
+}
+
+.headline {
+    font-size: 2em;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 5px;
+}
+
+#stories {
+    margin-left: 50px;
+}
