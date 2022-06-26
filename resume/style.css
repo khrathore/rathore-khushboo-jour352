@@ -12,7 +12,6 @@ BODY {
     width: 100%;
     max-width: 1920px;
     margin: 0 auto;
-    padding-bottom: 50px;
 }
 
 .container-fluid {
@@ -23,6 +22,10 @@ BODY {
 
 .navbar-dark {
     background-color: #F8B800;
+}
+
+#content {
+    margin-top: 50px;
 }
 
 .landing {
@@ -40,8 +43,8 @@ BODY {
     text-align: left;
     width: 70%;
     min-width: 700px;
+    padding-top: 50px;
     margin: 0 auto;
-    margin-top: 75px;
     text-align: center;
 }
 
@@ -52,14 +55,14 @@ BODY {
     color: white;
     text-align: center;
     margin: 0 auto;
-    margin-top: 10px;
     padding-bottom: 20px;
 }
 
 .customicon {
     color: #F8B800;
-    margin-left: 30px;
+    margin-left: 10px;
     margin-right: 30px;
+    font-size: 2em;
 }
 
 #gridcon {
@@ -67,40 +70,92 @@ BODY {
 }
 
 a {
-    text-decoration: none; 
+    text-decoration: none;
     border: none;
 }
 
-.frame {
-    width: 300px;
-    height: 250px;
-    border: 3px solid #F8B800;
-    background: #eee;
-    margin: auto;
-    padding: 15px 10px;
-  }
+#resume {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.rightside {
+    float: left;
+}
 
 #headshot {
-    border: 10px solid #F8B800;
+    border: 5px solid #F8B800;
     align-items: left;
-    width: 300px;
+    width: 320px;
     margin-left: 20px;
+    margin-right: 30px;
     margin-top: 30px;
 }
 
 /* Section head styling */
-.sectionheader {
-    font-size: 1.5em;
+#abtme {
+    font-size: 3em;
     text-transform: UPPERCASE;
-    background-color: #33485e;
-    color: white;
+    color: #F8B800;
     font-weight: 400;
+    text-align: left;
     margin-bottom: 10px;
-    margin-top: 20px;
-    margin-right: 0px;
-    margin-left: 0px;
-    width: 70%;
-    min-width: 300px;
+    margin-right: 400px;
+    margin-left: 370px;
+    padding-top: 20px;
+    border-bottom: 5px solid #F8B800;
+}
+
+/*formatting for self-description*/
+#bio {
+    margin-right: -20px;
+    margin-bottom: 30px;
+}
+
+#experience {
+    font-size: 3em;
+    text-transform: UPPERCASE;
+    color: #F8B800;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    border-bottom: 5px solid #F8B800;
+    margin-right: 580px;
+}
+
+#fnp {
+    margin-left: 180px;
+    margin-right: -20px;
+    margin-top: 30px;
+}
+
+#gsac {
+    margin-left: 180px;
+    margin-right: -20px;
+    margin-top: -10px;
+}
+
+#dbk {
+    margin-left: 180px;
+    margin-right: -20px;
+    margin-top: -5px;
+}
+
+#frc {
+    margin-left: 180px;
+    margin-right: -20px;
+    margin-top: 5px;
+}
+
+.workicon {
+    align-items: left;
+    width: 180px;
+    height: 180px;
+    margin-right: 30px;
+    margin-left: 20px;
 }
 
 /* Job title styling */
@@ -113,6 +168,7 @@ a {
 .organization {
     font-size: 1.25em;
     font-weight: 400;
+    margin-left: 40px;
 }
 
 /* Job time styling */
@@ -121,44 +177,70 @@ a {
     font-weight: 400;
     font-style: italic;
     margin-top: 2px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin-left: 40px;
 }
 
-/* List styling */
-li {
-    font-size: 1em;
+.position {
+    margin-top: 2px;
+    margin-left: 40px;
 }
 
-/*paragraph styling*/
-.description {
-    margin-top: 10px;
+#skillsec {
+    font-size: 3em;
+    text-transform: UPPERCASE;
+    color: #F8B800;
+    font-weight: 400;
+    text-align: left;
     margin-bottom: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-/* formatting for degrees*/
-#degrees {
-    margin-top: 5px;
-    margin-right: 0px;
-    margin-left: 0px;
-    margin-bottom: 0px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: 20px;
+    border-bottom: 5px solid #F8B800;
+    margin-right: 860px;
 }
 
 /*formatting for skills*/
-#do {
+#skills {
     margin-top: 5px;
     margin-right: 0px;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-bottom: 0px;
 }
 
-/*formatting for self-description*/
-.top {
-    width: 60%;
-    min-width: 300px;
+/* Formatting for work */
+#mywork {
+    font-size: 3em;
+    text-transform: UPPERCASE;
+    color: #F8B800;
+    font-weight: 400;
+    text-align: center;
     margin: 0 auto;
-    margin-bottom: 30px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    border-bottom: 5px solid #F8B800;
 }
+
+.iconic {
+    font-size: 6em;
+}
+
+#gridicon {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.customiconbot {
+    color: #F8B800;
+    font-size: 2em;
+    margin-right: 60px;
+    margin-left: 60px;
+}
+
+#footer {
+    background-color: #F8B800;
+    margin-top: 20px;
+    font-size: 1em;
+}
+
