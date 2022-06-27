@@ -20,7 +20,8 @@ BODY {
 }
 .bgimage {
     width:100%;
-    height:360px;
+    height: auto;
+    min-height: 360px;
     background: url(assignment-2.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -45,7 +46,6 @@ BODY {
     text-transform: UPPERCASE;
     text-align: left;
     width: 70%;
-    min-width: 700px;
     padding-top: 50px;
     margin: 0 auto;
     text-align: center;
@@ -84,7 +84,7 @@ a {
 #headshot {
     border: 5px solid #F8B800;
     align-items: right;
-    width: 320px;
+    width: 100%;
     margin-top: 30px;
 }
 /* Section head styling */
@@ -97,7 +97,6 @@ a {
     margin-bottom: 10px;
     padding-top: 20px;
     border-bottom: 5px solid #F8B800;
-    margin-right: 20px;
 }
 /*formatting for self-description*/
 #bio {
@@ -238,4 +237,102 @@ figcaption {
     margin-top: -90px;
 }
 
+@media only screen and (max-width: 1205px){
+    .name {
+        font-size: 3em;
+    }
+    #title {
+        font-size: 1.5em;
+    }
+    .bgimage {
+        min-height: 260px;
+    }
+}
 
+@media only screen and (max-width: 805px){
+    .name {
+        font-size: 2em;
+    }
+    #title {
+        font-size: 1em;
+    }
+    .customicon {
+        font-size: 1em;
+    }
+
+    .bgimage {
+        min-height: 220px;
+    }
+}
+
+@media only screen and (max-width: 766px){
+    #abtme {
+        text-align: center;
+    }
+    #bio {
+        text-align: center;
+    }
+    #experience {
+        text-align: center;
+    }
+    #dbk {
+        text-align: center;
+    }
+    #fnp {
+        text-align: center;
+    }
+    #gsac {
+        text-align: center;
+    }
+    #frc {
+        text-align: center;
+    }
+    .organization {
+        margin-left: 0;
+    }
+    .date {
+        margin-left: 0;
+    }
+    .position {
+        margin-left: 0;
+    }
+    #skillsec {
+        text-align: center;
+    }
+    #skills {
+        text-align: center;
+    }
+    
+}
+
+@media only screen and (max-width: 500px){
+    .name {
+        font-size: 1em;
+    }
+    #title {
+        font-size: .5em;
+    }
+    .customicon {
+        font-size: .5em;
+    }
+
+    .bgimage {
+        min-height: 100px;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .name {
+        font-size: .5em;
+    }
+    #title {
+        font-size: .25em;
+    }
+    .customicon {
+        font-size: .25em;
+    }
+
+    .bgimage {
+        min-height: 75px;
+    }
+}
