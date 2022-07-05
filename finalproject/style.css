@@ -54,6 +54,12 @@
     margin: 0 auto;
     padding-bottom: 20px;
 }
+
+#credit {
+    font-size: 10px;
+    color: rgb(146, 146, 146);
+    text-align: right;
+}
 #story {
     width: 100%;
     max-width: 800px;
@@ -80,17 +86,6 @@
     border-bottom: 3px solid black;
 }
 
-h2 {
-    width: 100%;
-    text-align: left;
-    font-family: 'DM Serif Display', 'Garamond' serif;
-    font-size: 25px;
-    color: black;
-    font-size: 2em;
-    margin-bottom: 20px;
-}
-
-
 p {
     margin-bottom: 10px;
     font-family: 'Roboto', 'Arial', sans-serif;
@@ -101,17 +96,45 @@ p {
     font-size: 40px;
     font-style: normal;
 }
+
+.sechead {
+    font-family: 'Arvo', 'Garamond', serif;
+    text-align: left;
+    font-size: 30px;
+    color: #4090b0;
+    margin-top: 20px;
+}
+
 figcaption {
     font-family: 'Roboto','sans-serif';
     font-size: 11px;
     color: rgb(172, 172, 172);
-    min-width: 1200px;
-    margin-left: -150px;
 }
 /*Image setup in site*/
 .photog {
-    width: 110%;
-    min-width: 1200px;
-    margin-left: -150px;
+    width: 100%;
+}
+
+#sidepho {
+    width: 385px;
+}
+
+blockquote {
+    font-size: 30px;
+    font-family: 'Arvo', 'Garamond', serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+    text-align: center;
+    border-top: 5px solid;
+    border-color: #4090b0;
+    border-bottom: 5px solid;
+    color: #4090b0;
+}
+
+#under {
+    margin-top: -10px;
 }
 
