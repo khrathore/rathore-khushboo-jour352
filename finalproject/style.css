@@ -1,7 +1,6 @@
 
 #container {
     width: 100%;
-    max-width: 1920px;
     margin: 0 auto;
 }
 
@@ -25,8 +24,6 @@
     font-family: 'Roboto', 'Arial', sans-serif;
 }
 .bgimage {
-    width:100%;
-    height: auto;
     min-height: 700px;
     background: url(ny.jpg);
     background-repeat: no-repeat;
@@ -46,7 +43,7 @@
 }
 
 /* formatting for my title*/
-#subhead {
+#dek {
     text-transform: UPPERCASE;
     font-size: 3em;
     color: white;
@@ -138,3 +135,80 @@ blockquote {
     margin-top: -10px;
 }
 
+#readmore {
+    margin-top: -90px;
+}
+
+.headers {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-size: 18px;
+}
+
+a {
+    color: black;
+}
+
+@media only screen and (min-width: 1530px){
+    #headline {
+        font-size: 9em;
+    }
+    #dek {
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 1205px){
+    #headline {
+        font-size: 6em;
+    }
+    #dek {
+        font-size: 2.5em;
+    }
+    .bgimage {
+        max-height: 500px;
+    }
+}
+
+@media only screen and (max-width: 650px){
+    #headline {
+        font-size: 5em;
+    }
+    #dek {
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width: 520px){
+    #headline {
+        font-size: 4em;
+    }
+    #dek {
+        font-size: 1.5em;
+    }
+}
+
+@media only screen and (max-width: 440px){
+    #headline {
+        font-size: 3em;
+    }
+    #dek {
+        font-size: 1em;
+    }
+    .bgimage {
+        min-height: 0;
+        max-height: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    #headline {
+        font-size: 2em;
+    }
+    #dek {
+        font-size: 1em;
+    }
+    .bgimage {
+        min-height: 0;
+        max-height: 400px;
+    }
+}
