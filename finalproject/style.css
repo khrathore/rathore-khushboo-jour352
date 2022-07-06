@@ -143,7 +143,7 @@ a {
     color: black;
 }
 
-/* @media only screen and (min-width: 1530px){
+@media only screen and (min-width: 1530px){
     #headline {
         font-size: 9em;
     }
@@ -209,4 +209,4 @@ a {
         min-height: 0;
         max-height: 400px;
     }
-} */
+}
