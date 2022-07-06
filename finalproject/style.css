@@ -164,12 +164,15 @@ a {
     }
 }
 
-@media only screen and (max-width: 650px){
+@media only screen and (max-width: 770px){
     #headline {
         font-size: 5em;
     }
     #dek {
         font-size: 2em;
+    }
+    #sidepho{
+        width: 100%
     }
 }
 
